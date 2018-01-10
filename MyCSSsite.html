@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+<title>My CSS Website</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+	<nav>
+		<ul class="topnav" id="dropdownclick">
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#News">News</a></li>
+			<li><a href="#Contact">Contact</a></li>
+			<li><a href="#About">About</a></li>
+			
+			<li class="topnav-right"><a href="#SignUp">SignUp</a></li>
+			<li class="topnav-right"><a href="#Login">Login</a></li>
+			<li class="dropdownicon"><a href="javascript:void(0)" onClick="dropdownMenu()">&#9776;</a></li>
+		</ul>
+	
+	</nav>
+	
+	<div class="container" id="section-1-gradient">
+		<div class="row">
+			<div class="col-6 ">
+				<div class="leftSide-col">
+				<div>
+					<h1 class="larger">Crazy Radness</h1>
+					<h1 class="larger">Made for the Beach-Loving Bicyclist</h1>
+				
+				</div>
+				
+				<div>
+			<form>
+				<div>
+					<h2>Username</h2>
+					<input class="inputbox" type="text" name="username" placeholder="Username">
+					<h2>Password</h2>
+					<input class="inputbox" type="text" name="password" placeholder="Password">
+				</div>
+			</form>
+				</div>
+		</div>
+	
+			</div>
+			
+			<div class="col-6 ">
+				<div class="rightSide-col">
+					<div class="videoContainer">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/PtookaUUjto" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+						</iframe>
+					</div>				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+	</div>
+	
+	<header>
+		<h1 class="section2Header">The Standards of Awesomeness</h1> 
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="Bike01.jpg" alt="Bike Logo">
+					</div>
+					<label>Chat with Me</label>
+					<p>Cat ipsum dolor sit amet, with tail in the air. Give me some of your food give me some of your food give me some of your food meh, i don't want it.</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="Bike01.jpg" alt="Bike Logo">
+					</div>
+					<label>Learn to Ride</label>
+					<p>Cat ipsum dolor sit amet, with tail in the air. Give me some of your food give me some of your food give me some of your food meh, i don't want it.</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="Bike01.jpg" alt="Bike Logo">
+					</div>
+					<label>Bike Life</label>
+					<p>Cat ipsum dolor sit amet, with tail in the air. Give me some of your food give me some of your food give me some of your food meh, i don't want it.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<button class="learnmore">Learn More</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+	  <div class="row">
+		<div class="col-7">
+			<article>
+				<p>Cat ipsum dolor sit amet, with tail in the air. Give me some of your food give me some of your food give me some of your food meh, i don't want it adventure always for then cats take over the world see owner, run in terror for stand in front of the computer screen, but furrier and even more furrier hairball.Cat ipsum dolor sit amet, with tail in the air. Give me some of your food give me some of your food give me some of your food meh, i don't want it adventure always for then cats take over the world see owner, run in terror for stand in front of the computer screen, but furrier and even more furrier hairball</p>
+			</article>
+		</div>
+		<div class="col-5">
+			<div class="surfIcon">
+				<img src="Surfin.jpg" alt="Surfing the Wave">
+			</div>
+		</div>
+	  </div>
+	</div>
+	
+	<footer class="footsy">
+		<div class="row">
+			<div class="col-3 mobileStack">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div class="col-3 mobileStack">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div class="col-3 mobileStack">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div class="col-3 mobileStack">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	
+	
+<script>
+	function dropdownMenu() {
+		var x = document.getElementById("dropdownclick");
+		if (x.className === "topnav"){
+			x.className += " responsive";
+			/*change topnav to topnav.responsive*/
+		}
+		else {
+			x.className = "topnav";
+		}
+	}
+	
+</script>
+	
+</body>
+	
+</html>
